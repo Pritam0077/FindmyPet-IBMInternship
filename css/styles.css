@@ -1,0 +1,144 @@
+body {
+  font-family: "Montserrat-Medium", sans-serif;
+  text-align: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Medium 500", sans-serif;
+}
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+p {
+  color: gray;
+}
+/* headings */
+.big-heading {
+  line-height: 1.5;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+/* navigation bar */
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+.navbar-brand {
+  font-family: "ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+/* download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+/* title-image */
+#title {
+  background-color: #007cb9;
+  color: white;
+  text-align: left;
+}
+.title-image {
+  width: 60%;
+  transform: rotate(30deg); /* rotates left if value set to negative */
+  position: absolute;
+  right: 30%;
+}
+
+/* features */
+#features {
+  padding: 5% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+.icon {
+  color: #007cb9;
+  margin-bottom: 5%;
+}
+.icon:hover {
+  color: #005689;
+}
+.feature-column {
+  text-align: center;
+  padding: 5%;
+}
+/* testimonials section */
+#testimonials {
+  background-color: #007cb9;
+  color: #fff;
+}
+.testimonial-image {
+  border-radius: 100%;
+  margin: 20px;
+  width: 20%;
+}
+.testimonial-text {
+  line-height: 1.5;
+  font-size: 2.2rem;
+}
+.carousel-indicators {
+  margin-right: 25%;
+}
+/* press */
+#press {
+  background-color: #007cb9;
+  padding-bottom: 10%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* pricing */
+.pricing-column {
+  padding: 3% 2%;
+}
+.pricing-text {
+  line-height: 1.5;
+  font-size: 2.5rem;
+}
+/* media query breakpoint */
+@media (max-width: 1080px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+/* cta */
+#cta {
+  background-color: #007cb9;
+  font-family: "Montserrat", sans-serif;
+  padding: 5% 10% 2% 10%;
+  color: #fff;
+}
+.cta {
+  margin-bottom: 5%;
+}
+.cta-button {
+  margin: 1%;
+}
+#footer {
+  color: #fff;
+  padding: 10% 0 0 0;
+}
+.social-icon {
+  margin: 3%;
+  color: black;
+}
